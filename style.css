@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(169, 159, 159);
+}
+
+.fetch-API{
+    margin-left: 500px;
+    margin-top: 300px;
+    width: 500px;
+    height: 250px;
+    background: grey;
+    border-radius: 10px;
+    color: white;
+}
+.space{
+    position: absolute;
+}
+
+#inputs{
+    padding: 10px;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 170px;
+}
+
+.icons{
+    position: relative;
+    
+}
+#empty{
+    margin-top: 2px;
+    margin-left: 40PX;
+    width: 450px;
+}
+button{
+   margin-left: 228px;
+   margin-top:18px;
+   width: 50px;
+   background: red;
+   width: 60px;
+   height: 50px;
+   border-radius: 30px;
+}
+
+
+
+#icon1{
+    margin-left: 30px;
+    margin-top: 185px;
+}
+
+#icon2{
+    position: relative;
+}
+
+
+
+
+
+@media (max-width: 568px){
+    .fetch-API{
+        margin-left: 20px;
+        background: rgb(69, 66, 66);
+        width: 350px;
+        margin-top: 120px;
+        height: 370px;
+    }
+    #icon1{
+        width: 300px;
+        margin-top: 307px;
+        
+    }
+
+    #inputs{
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    
+    #empty{
+        width: 300px;
+        margin-left: 27px;
+    }
+    button{
+        margin-left: 150px;
+    }
+
+
+}
+
